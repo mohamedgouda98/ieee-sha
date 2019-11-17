@@ -1,0 +1,91 @@
+
+
+/* hovering section */
+
+/* sign up */
+.signUPm
+{
+    transition: all 0.5s ease;
+}
+.signUPm i
+{
+    transition: all 0.5s ease;
+}
+.signUPm:hover i
+{
+    transform: rotateY(360deg);
+}
+.signUPm:hover a
+{
+    color: #fff;
+}
+.signUPm:hover
+{
+    transform: scale(1.1,1.1);
+    background-color: #4e73df;
+    
+    
+}
+
+/* check in */
+
+.checkINm a
+{
+    color: #1cc88a;
+}
+.checkINm i
+{
+    transition: all 0.5s ease;
+}
+.checkINm:hover i
+{
+    transform: rotateY(360deg);
+}
+.checkINm
+{
+    
+    transition: all 0.5s ease;
+}
+
+.checkINm:hover
+{
+    transform: scale(1.1,1.1);
+    background-color: #1cc88a ;
+}
+.checkINm:hover a
+{
+    color: #fff;
+}
+
+
+/* user Data */
+.usersDATAm
+{
+    transition: all 0.5s ease;
+}
+.usersDATAm a
+{
+    color:#36b9cc;
+}
+.usersDATAm i
+{
+    transition: all 0.5s ease;
+}
+.usersDATAm:hover i
+{
+    transform: rotateY(360deg);
+}
+.usersDATAm:hover a
+{
+    color: #fff;
+}
+.usersDATAm:hover
+{
+    transform: scale(1.1,1.1);
+    background-color: #36b9cc;
+}           
+
+.container-fluid .form{
+    padding:50px;
+    text-align: center;
+}

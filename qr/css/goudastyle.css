@@ -1,0 +1,59 @@
+*{
+    font-family: Tajawl;
+}
+form{
+    padding:30px 30px;
+    text-align: center;
+    margin-bottom:40px;
+    
+ } 
+form input , .select{
+    margin-top:15px;
+    width: 350px;
+    border-radius: 10px;
+    border:1px solid #999;
+    padding:5px 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+form input[type="radio"]{
+    display: inline-block;
+    width: 18px;
+}
+.formSection{
+    font-size: 24px;
+   font-weight: 900;
+}
+.start{
+    font-size: 25px;
+}
+#selectCountry{
+    margin-right: 55px;
+}
+.imge{
+    text-align: center;
+    padding:10px;
+    
+    margin: 0 auto;
+}
+.imge img{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%; 
+     max-width: 100%;
+    max-height: 100%;
+    padding:30px;
+    
+    margin: 0 auto;
+    /* display: inline-block; */
+}
+.test input{
+    margin-top: 20px;
+}
+.smsm{
+    display: none;
+}
+.data-info ul{
+    padding: 1px 20px;
+}

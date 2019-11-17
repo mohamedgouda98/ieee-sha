@@ -1,0 +1,71 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Red Hat Display', sans-serif; 
+}
+
+.gradientSection
+{
+    height: 100vh;
+    background-image: url(../Images/TFA_Landing\ Page-02.png);
+    background-size: cover;
+}
+
+.gradientSection .overLayer
+{
+
+    height: 89%;
+    width: 95%;
+    background-color: #fff;
+    background-image: url(../Images/TFA_Landing\ Page-03.png);
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.gradientSection .overLayer h2
+{
+    font-size: 50px;
+    font-weight: bolder;
+    background-image: -webkit-gradient(linear,15% 25%,100% 100%,from(#FF9933),to(#FF3333));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+   
+
+}
+
+.gradientSection .overLayer h4
+{
+    font-weight: bolder;
+    font-size: 25px;
+    color: #6c757d;
+}
+
+.gradientSection .overLayer a
+{
+    padding: 10px 25px;
+    margin-top: 25px;
+    
+background: -webkit-linear-gradient(90deg, rgb(145, 41, 140), rgb(206, 18, 139));
+background: linear-gradient(90deg, rgb(145, 41, 140), rgb(206, 18, 139));
+border-radius: 20px;
+display: inline-block;
+text-decoration: none;
+color:#fff;
+}
+.gradientSection .overLayer .logoImg
+{
+    margin-top: 100px;
+}
+.gradientSection .overLayer .logoImg img
+{
+    width: 80%;
+    height: 80%;
+}
+.gradientSection .overLayer .DummyDIV
+{
+    height: 20%;
+    opacity: 0;
+}

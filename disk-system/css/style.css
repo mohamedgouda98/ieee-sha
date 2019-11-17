@@ -1,0 +1,197 @@
+/* Start Login Style Code */
+body{
+    background-color:#f7f7f7;
+}
+.img .logo{
+    height:300px;
+    text-align: center
+}
+.img .logo img{
+    width: 150px;
+    height: 150px;
+    margin:100px 0 0 0
+}
+/* Start Form Style */
+.form .inputs form{
+    background-color:#fff;
+    text-align: center;
+    padding:50px 20px;
+    border-radius: 10px;
+    height:500px;
+    box-shadow: 5px 5px 25px #7a7a7a;
+}
+.form .inputs form input{
+    margin: 10px 0;
+    width:300px;
+    border-radius: 5px;
+    border: 1px solid #16b8e7;
+    padding:10px 35px;
+    transition: all 1s ease
+}
+.form .inputs form input:focus{
+    width: 400px;
+    border-color: #ffd018;
+
+}
+.form .inputs form h3{
+    font-weight: bold;
+    margin-bottom:20px;
+}
+.form .inputs form i{
+    position: absolute;
+    padding : 25px 10px 20px 12px;
+}
+/* End Login Style Code */
+
+
+
+/* start index style */
+
+.quesions .data{
+    background-color:#fff;
+    text-align: center;
+    padding:50px 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 35px #7a7a7a;
+    margin:20px 0
+}
+.form-test input{
+    margin:0 10px
+}
+
+.guide{
+    text-align: center;
+    direction: rtl;
+    
+}
+
+/* res Page style */
+
+.res .data{
+    background-color:#fff;
+    text-align: center;
+    padding:50px 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 35px #7a7a7a;
+    margin:20px 0
+}
+.res .data h2{
+    font-weight: bold;
+    color:#11cb68
+}
+.res .data .cir{
+    width: 150px;
+    height:150px;
+    border-radius: 50%;
+    background-color:#11cb68;
+    margin: 30px auto ;
+    text-align: center;
+    font-weight: bold;
+    font-size: 85px;
+    color:#fff;
+}
+
+.res .data h3{
+    color:#16b8e7;
+    font-weight: bold;
+}
+.res .data .zon{
+    color:#3a3a44;
+    font-size: 20px;
+}
+
+/* End index style */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Start Admin Area */
+
+/* Start index page */
+.header .item{
+    height: 500px;
+    background-color:#16b8e7;
+    text-align: center;
+    padding: 40px 0
+}
+.header .item2{
+    background-color:#ffd018;
+}
+.header .item3{
+    background-color:#11cb68;
+}
+.header .item img{
+    width: 100px;
+    height: 100px;
+    margin: 150px 0 20px 0;
+    opacity: 0.6;
+    transition: 0.5s all ease
+}
+.header .item h3{
+    font-weight: bold;
+}
+.header .item img:hover{
+    opacity: 1;
+}
+
+/* End insex page */
+
+/* Start Add page */
+
+.show .table{
+    margin-top:50px;
+    background-color:#fff;
+    text-align: center;
+    padding:50px 100px ;
+    border-radius: 10px;
+    box-shadow: 5px 5px 25px #7a7a7a;
+}
+
+ td {
+    border: 1px solid black;
+  }
+
+/* End Add page */
+
+/* res admin page style */
+.res .data table td{
+    padding:10px;
+    font-weight: bold;
+}
+
+/* start edit page style */
+
+.edit .data{
+    background-color:#fff;
+    text-align: center;
+    padding:50px 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 35px #7a7a7a;
+    margin:20px 0;
+}
+.edit .data form input{
+    margin: 10px 0;
+    width:300px;
+    border-radius: 5px;
+    border: 1px solid #16b8e7;
+    padding:10px 35px;
+    transition: all 1s ease
+}
+.edit .data form input:focus{
+    width: 400px;
+    border-color: #ffd018;
+}
+
+
+/* End Admin Area */

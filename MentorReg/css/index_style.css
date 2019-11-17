@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* Start index page */
+.header{
+    padding:20px;
+}
+.header .logo img{
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+}
+
+.form{
+    margin-top:70px;
+}
+.form form input{
+    padding:5px 10px ;
+    margin-top:20px;
+    border-radius: 7px;
+    border: 1px solid #000
+}
+
+/* End index Page */
+
+.footer{
+    text-align: center;
+    margin-top:50px;
+}
+.footer b{
+    font-size: 16px;
+}

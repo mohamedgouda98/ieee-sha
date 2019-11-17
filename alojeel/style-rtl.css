@@ -1,0 +1,114 @@
+body {
+    font-family: 'Cairo', sans-serif;
+    text-align: right;
+}
+
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span{
+    font-family: 'Cairo', sans-serif;
+    text-align: justify;
+}
+
+.header-logo > a {
+    text-align: left;
+}
+
+.footer-bottom-area p{
+    text-align: center;
+}
+
+span{
+    display: block;
+}
+
+.hero-content > .title > h1 {
+    line-height: 1.5;
+}
+
+
+.main-menu > li > a  {
+    font-weight: bold;
+}
+
+.about-img {
+    right: -60px
+}
+
+.about-content {
+    margin-right: -60px;
+    padding-left: 120px;
+    padding-right: 0;
+}
+
+.timeline-content {
+    margin-right: 20px;
+    margin-left: 0;
+}
+
+.service-img {
+    padding-right: 0px;
+}
+
+.service-content {
+    margin-left: 0px;
+    margin-right: 25px;
+}
+
+
+.contact-address {
+    padding-left: 50px;
+    padding-right: 0px;
+}
+
+.footer-menu {
+    padding-left: 0px;
+    padding-right: 55px;
+}
+
+
+.single-footer-widget ul > li {
+    text-align: right;
+}
+
+@media (max-width: 767px){
+    .footer-menu {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media (max-width: 767px) {
+    .about-img {
+        right: 0;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .about-content {
+        margin-right: 0px; 
+        padding-left: 0px; 
+    }
+}
+
+
+.check-list > li::before  {
+    right: 0;
+}
+
+.check-list > li {
+    padding-right: 40px;
+    padding-left: 0px;
+}
+
+.about-content > p {
+    line-height: 40px;
+}
